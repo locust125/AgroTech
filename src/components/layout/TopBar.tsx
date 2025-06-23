@@ -195,16 +195,10 @@ export default function TopBar() {
                 Dashboard
               </Link>
               <Link
-                to="/team"
+                to="/admin"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >
-                Team
-              </Link>
-              <Link
-                to="/projects"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Projects
+                admin
               </Link>
             </div>
           </motion.div>
